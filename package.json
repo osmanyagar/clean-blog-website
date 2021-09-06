@@ -1,0 +1,33 @@
+{
+  "name": "clean-blog-patika",
+  "version": "1.0.0",
+  "description": "blog site - node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmanyagar/clean-blog-website.git"
+  },
+  "keywords": [
+    "patika",
+    "clean",
+    "blog"
+  ],
+  "author": "osman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osmanyagar/clean-blog-website/issues"
+  },
+  "homepage": "https://github.com/osmanyagar/clean-blog-website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
